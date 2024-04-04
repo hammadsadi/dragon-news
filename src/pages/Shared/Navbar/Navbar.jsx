@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import userImg from "../../../assets/user.png";
 
 const Navbar = () => {
   const navLink = (
@@ -67,10 +68,7 @@ const Navbar = () => {
           className="btn btn-ghost btn-circle avatar"
         >
           <div className="w-10 rounded-full">
-            <img
-              alt="Tailwind CSS Navbar component"
-              src="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg"
-            />
+            <img alt="Tailwind CSS Navbar component" src={userImg} />
           </div>
         </div>
         <button className="bg-dark-02 cursor-pointer py-[6px] px-6  font-semibold text-lg md:text-xl text-white">

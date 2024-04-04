@@ -13,17 +13,17 @@ const Home = () => {
         <BreakingNews />
       </div>
       {/* Navbar */}
-      <div>
+      <div className="mb-9">
         <Navbar />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
-        <div className="border-red-400 border col-span-1">
+        <div className=" col-span-1">
           <LeftCategory />
         </div>
         <div className="border-red-400 border col-span-2">
           <h2>Home</h2>
         </div>
-        <div className="border-red-400 border col-span-1">
+        <div className="col-span-1">
           {" "}
           <RightCategory />
         </div>
