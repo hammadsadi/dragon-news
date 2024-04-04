@@ -9,6 +9,7 @@ export default {
       colors: {
         "dark-03": "#706F6F",
         "dark-02": "#403F3F",
+        "dark-07": "#F3F3F3",
       },
     },
   },
