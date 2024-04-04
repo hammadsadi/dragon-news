@@ -1,6 +1,7 @@
 import BreakingNews from "../../components/BreakingNews/BreakingNews";
 import Header from "../Shared/Header/Header";
 import LeftCategory from "../Shared/LeftCategory/LeftCategory";
+import Navbar from "../Shared/Navbar/Navbar";
 import RightCategory from "../Shared/RightCategory/RightCategory";
 
 const Home = () => {
@@ -10,6 +11,10 @@ const Home = () => {
       {/* Breaking News */}
       <div className="my-6">
         <BreakingNews />
+      </div>
+      {/* Navbar */}
+      <div>
+        <Navbar />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="border-red-400 border col-span-1">
